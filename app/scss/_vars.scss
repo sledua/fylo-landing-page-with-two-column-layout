@@ -1,6 +1,19 @@
-$openSans-Regular: "OpenSans-Regular", sans-serif;
-
+//font f
+$openSans-Regular: "OpenSansRegular", sans-serif;
+$raleway-Regular: "RalewayRegular", sans-serif;
+$raleway-Bold: "RalewayBold", sans-serif;
+//fonts sizes
 $base_size: 10px;
+//colors//
+//primary
+$veryDarcBlue: hsl(243, 87%, 12%);
+$desaturatedBlue: hsl(238, 22%, 44%);
+// accent
+$brightBlue: hsl(224, 93%, 58%);
+$modernCyan: hsl(170, 45%, 43%);
+//neuteral
+$lightGrayishBlue: hsl(240, 75%, 98%);
+$LightGray: hsl(0, 0%, 75%);
 
-$accent: 148, 41, 17;
 $white: white;
+$red: red;

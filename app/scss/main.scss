@@ -9,7 +9,7 @@
 	color: #666;
 }
 ::selection {
-	background-color: rgb($accent);
+	background-color: $veryDarcBlue;
 	color: $white;
 }
 :focus-visible {
@@ -22,10 +22,10 @@
 
 body {
 	font-size: 1.4rem;
-	color: $white;
 	font-family: $openSans-Regular;
 	overflow-x: hidden;
-	margin: 0;
+	margin: 0 auto;
+	max-width: 144rem;
 }
 
 .grid {
@@ -34,5 +34,5 @@ body {
 .flex {
 	display: flex;
 }
-
+@import "dsystem";
 @import "media";
